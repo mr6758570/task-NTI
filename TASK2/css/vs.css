@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+
+}
+body{
+  text-align: center;
+  background-color: rgb(244, 174, 44);
+  padding: 2%;
+  margin: 4%;
+  box-sizing: border-box;
+}
+.from-lift{
+  display: inline-block;
+  width: 48%;
+  height: 50%;
+  box-sizing: border-box;
+  background-color: rgb(245, 223, 223);
+  vertical-align: top;
+padding: 4%; 
+
+}
+#mo{
+  text-align: center;
+}
+p{
+  text-align:center;
+  padding: 1%;
+  margin: 3%;
+}
+h1{text-align: center;
+
+}
+.card{
+  display: inline-block;
+        width: 48%;
+    border: 1px solid rgb(249, 239, 239);
+    vertical-align: top;
+
+}
+form{
+  display:inline-block;
+    width:100%;
+    height: 50%;
+    background-color: aqua;
+    border: 1px solid rgb(249, 239, 239);
+    padding: 4%;
+    box-sizing: border-box;
+
+}
+form input{
+  width: 85%;
+    display:block;
+    padding: 3%;
+    margin: 3% auto;
+    border: 0;
+
+}
+.submit{
+  display: block;
+  width: 30%;
+    background-color: rgb(244, 7, 7);
+    margin: 5% auto;
+    color: #f6f6f6;
+    padding: 3%;
+    border: 0%;
+      border-radius:20px;
+
+}
+textarea{
+  width: 85%;
+  display: block;
+  margin: 3% auto;
+  box-sizing: border-box;
+
+}
