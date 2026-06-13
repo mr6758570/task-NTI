@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 30px 0;
+}
+
+.logo{
+    text-decoration: none;
+    color: #333;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+}
+
+.mo{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.mo h1{
+    font-size: 60px;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    color: #1a1a1a;
+}
+
+.mo p{
+    margin: auto;
+    padding: 20px;
+    font-size: 18px;
+    color: #777;
+}
+
+.join-btn{
+    background-color: #1d6f78;
+    color: white;
+    border: none;
+
+    padding: 15px 60px;
+    border-radius: 30px;
+
+    font-size: 18px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+    .image{
+    width: 80%;
+    margin: 50px auto;
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image img{
+    width: 48%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+.wellbeing{
+    width: 80%;
+    margin: 80px auto;
+    padding: 50px;
+
+    background-color: #f5f5f5;
+    border-radius: 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wellbeing-content{
+    width: 60%;
+}
+
+.wellbeing-content h2{
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
+.features{
+    display: flex;
+    gap: 40px;
+}
+
+.feature{
+    width: 200px;
+}
+
+.feature i{
+    font-size: 25px;
+    color: #1d6f78;
+    margin-bottom: 15px;
+}
+
+.feature p{
+    color: #555;
+    line-height: 1.6;
+}
+
+.imagewomen img{
+    width: 300px;
+}
+
